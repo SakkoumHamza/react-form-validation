@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect} from 'react'
+import React, { useRef, useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 export default function Form(){
 
@@ -128,6 +128,7 @@ export default function Form(){
                 
                     {
                         Object.keys(errors).length>0 ?
+                        // eslint-disable-next-line jsx-a11y/aria-role
                         <div className='alert alert-danger' role="danger">
                             <ul>
                                 {displayErrors()}
