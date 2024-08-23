@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Form from "./Components/Form/Form.jsx"
+
+
+export default function App() {
   return (
-    <
+    <Form/>
   );
 }
-
-export default App;
